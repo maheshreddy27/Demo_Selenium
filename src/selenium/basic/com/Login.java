@@ -19,7 +19,7 @@ public class Login {
 		boolean d=drive.findElement(By.id("password")).isDisplayed();
 		System.out.println(d);
 		drive.findElement(By.id("password")).sendKeys("Mahi@2708");
-		drive.findElement(By.id("nextbtn")).click();
+		drive.findElement(By.id("nextbtn")).click(); //Test
 
 		
 	}
